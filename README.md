@@ -15,8 +15,10 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 
 ## Problems
 
-|   N | Problem            | Difficulty | Topics             |
-|----:|--------------------|:----------:|--------------------|
-|   1 | [Two Sum][two-sum] |    Easy    | #array #hash-table |
+|     N | Problem                                                            | Difficulty | Topics                      |
+|------:|--------------------------------------------------------------------|:----------:|-----------------------------|
+|     1 | [Two Sum][two-sum]                                                 |    Easy    | #array #hash-table          |
+|   121 | [Best Time to Buy and Sell Stock][best-time-to-buy-and-sell-stock] |    Easy    | #array #dynamic-programming |
 
 [two-sum]: https://github.com/ju-popov/leetcode-go/tree/main/problems/two-sum
+[best-time-to-buy-and-sell-stock]: https://github.com/ju-popov/leetcode-go/tree/main/problems/best-time-to-buy-and-sell-stock
