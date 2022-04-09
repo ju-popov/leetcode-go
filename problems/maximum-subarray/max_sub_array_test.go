@@ -30,6 +30,11 @@ var testCases = []testCase{
 		nums:     []int{5, 4, -1, 7, 8},
 		expected: 23,
 	},
+	{
+		name:     "03",
+		nums:     []int{-2, 1},
+		expected: 1,
+	},
 }
 
 func TestMaxSubArray(t *testing.T) {
