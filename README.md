@@ -19,4 +19,4 @@ Solving [LeetCode](https://leetcode.com/) programming problems in Go
 |----:|--------------------|:----------:|--------------------|
 |   1 | [Two Sum][two-sum] |    Easy    | #array #hash-table |
 
-[two-sum]: https://github.com/ju-popov/leetcode.com/tree/main/problems/two-sum
+[two-sum]: https://github.com/ju-popov/leetcode-go/tree/main/problems/two-sum
