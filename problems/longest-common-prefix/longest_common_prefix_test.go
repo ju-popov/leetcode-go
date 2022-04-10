@@ -27,7 +27,7 @@ var testCases = []testCase{
 	},
 }
 
-func TestMaxProfit(t *testing.T) {
+func TestLongestCommonPrefix(t *testing.T) {
 	t.Parallel()
 
 	for _, testCase := range testCases {

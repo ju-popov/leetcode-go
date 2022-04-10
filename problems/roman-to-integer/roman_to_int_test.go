@@ -1,50 +1,45 @@
-package validpalindromeii_test
+package romantointeger_test
 
 import (
 	"reflect"
 	"testing"
 
-	validpalindromeii "github.com/ju-popov/leetcode-go/problems/valid-palindrome-ii"
+	romantointeger "github.com/ju-popov/leetcode-go/problems/roman-to-integer"
 )
 
 type testCase struct {
 	name     string
 	s        string
-	expected bool
+	expected int
 }
 
 //nolint:gochecknoglobals
 var testCases = []testCase{
 	{
 		name:     "01",
-		s:        "aba",
-		expected: true,
+		s:        "III",
+		expected: 3,
 	},
 	{
 		name:     "02",
-		s:        "abca",
-		expected: true,
+		s:        "LVIII",
+		expected: 58,
 	},
 	{
 		name:     "03",
-		s:        "abc",
-		expected: false,
-	},
-	{
-		name:     "04",
-		s:        "atbbga",
-		expected: false,
+		s:        "MCMXCIV",
+		expected: 1994,
 	},
 }
 
-func TestValidPalindrome(t *testing.T) {
+func TestRomanToInt(t *testing.T) {
 	t.Parallel()
 
 	for _, testCase := range testCases {
 		currentTestCase := testCase
 		t.Run(currentTestCase.name, func(t *testing.T) {
 			t.Parallel()
-			actual := validpalindromeii.ValidPalindrome(currentTestCase.s)
+			actual := romantointeger.RomanToInt(currentTestCase.s)
 			if !reflect.DeepEqual(actual, currentTestCase.expected) {
 				t.Errorf("Expected result for test: '%v' is: '%v', but the actual result is: '%v'", currentTestCase.name, currentTestCase.expected, actual)
 			}

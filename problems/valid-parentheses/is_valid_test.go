@@ -32,7 +32,7 @@ var testCases = []testCase{
 	},
 }
 
-func TestTwoSum(t *testing.T) {
+func TestIsValid(t *testing.T) {
 	t.Parallel()
 
 	for _, testCase := range testCases {
