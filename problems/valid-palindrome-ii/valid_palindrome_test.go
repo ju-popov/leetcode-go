@@ -30,6 +30,11 @@ var testCases = []testCase{
 		s:        "abc",
 		expected: false,
 	},
+	{
+		name:     "04",
+		s:        "atbbga",
+		expected: false,
+	},
 }
 
 func TestTwoSum(t *testing.T) {
