@@ -1,9 +1,19 @@
 linters:
   enable-all: true
   disable:
-    - golint     # The repository of the linter has been archived by the owner. Replaced by revive
-    - interfacer # The repository of the linter has been archived by the owner.
-    - maligned   # The repository of the linter has been archived by the owner. Replaced by govet 'fieldalignment'.
-    - scopelint  # The repository of the linter has been deprecated by the owner. Replaced by exportloopref.
-
-    - lll        # Reports long lines
+    - exhaustivestruct # deprecated
+    - golint # deprecated
+    - interfacer # deprecated
+    - maligned # deprecated
+    - scopelint # deprecated
+    - bodyclose # disabled because of go1.18
+    - contextcheck # disabled because of go1.18
+    - nilerr # disabled because of go1.18
+    - noctx # disabled because of go1.18
+    - rowserrcheck # disabled because of go1.18
+    - sqlclosecheck # disabled because of go1.18
+    - structcheck # disabled because of go1.18
+    - tparallel # disabled because of go1.18
+    - unparam # disabled because of go1.18
+    - wastedassign # disabled because of go1.18
+    - lll
